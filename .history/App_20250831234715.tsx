@@ -1,10 +1,12 @@
 import React from "react";
 import { SafeAreaView, StyleSheet } from "react-native";
+import LinearGradient from "react-native-linear-gradient";
 import ProfileCard from "./profileCard";
 
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
+      
       <ProfileCard />
     </SafeAreaView>
   );
@@ -13,7 +15,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#1e1212ff", // dark Spotify vibe
+    backgroundColor: "#000", // dark Spotify vibe
     justifyContent: "center", // center vertically
     alignItems: "center",     // center horizontally
   },
