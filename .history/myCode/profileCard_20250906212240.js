@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { View, Text, Image, TouchableOpacity } from "react-native";
-import styles from "../assets/ProfileCardStyles";
+import styles from "./ProfileCardStyles"; // Import styles
 
 export default function ProfileCard() {
   const [following, setFollowing] = useState(false);
@@ -13,7 +13,7 @@ export default function ProfileCard() {
 
       <View style={styles.info}>
         <View style={styles.nameRow}>
-          <Text style={styles.name}>Mechelle Loraine N. Monsale</Text>
+          <Text style={styles.name}>Mechelle Losraine N. Monsale</Text>
           <Image source={require("../assets/verified.png")} style={styles.verified} />
         </View>
         <Text style={styles.username}>@chelloraine</Text>

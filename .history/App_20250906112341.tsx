@@ -1,11 +1,11 @@
 import React from "react";
 import { SafeAreaView, StyleSheet } from "react-native";
-import ProfileCard from "./myCode/profileCard";
+import Calculator from "./myCode/Calculator"; // Correct import
 
 export default function App() {
-  return (
+  return (  
     <SafeAreaView style={styles.container}>
-      <ProfileCard />
+      <Calculator />
     </SafeAreaView>
   );
 }

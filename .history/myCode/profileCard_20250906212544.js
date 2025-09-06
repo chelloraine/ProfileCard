@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { View, Text, Image, TouchableOpacity } from "react-native";
-import styles from "../assets/ProfileCardStyles";
+import styles from "../assets/ProfileCardStyles"; 
 
 export default function ProfileCard() {
   const [following, setFollowing] = useState(false);

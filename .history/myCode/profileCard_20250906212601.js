@@ -13,7 +13,7 @@ export default function ProfileCard() {
 
       <View style={styles.info}>
         <View style={styles.nameRow}>
-          <Text style={styles.name}>Mechelle Loraine N. Monsale</Text>
+          <Text style={styles.name}>Mechelle Lordaine N. Monsale</Text>
           <Image source={require("../assets/verified.png")} style={styles.verified} />
         </View>
         <Text style={styles.username}>@chelloraine</Text>
